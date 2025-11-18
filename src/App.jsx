@@ -6,6 +6,7 @@ import Skills from './components/Skills'
 import Experience from './components/Experience'
 import Blog from './components/Blog'
 import Contact from './components/Contact'
+import PhotoUpload from './components/PhotoUpload'
 
 function App() {
   // Konami code for Warp Drive easter egg
@@ -41,6 +42,7 @@ function App() {
       <Skills />
       <Experience />
       <Blog />
+      <div id="photo"><PhotoUpload /></div>
       <Contact />
       <footer className="bg-[#0b0b1b] text-center text-white/60 py-10">
         Lost in the void? Every black hole has an exit — try the nav above.
